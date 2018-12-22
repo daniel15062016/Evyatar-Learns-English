@@ -1,0 +1,44 @@
+/*
+html {
+  background-image: url("../images/abc monsters.jpg"); height: 60%;
+}
+*/
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: lightyellow;
+  padding: 0 20px 20px 20px;
+  border: 20px solid purple;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 640
+  height: 360
+
+}
+
+#home_images {
+  /*height: 70%;
+  width: 70%;*/
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+}
+
+#preview-line-1 {
+  background-color: Orange;
+}
+
+#preview-line-2 {
+  background-color: lightBlue;
+}
+
+#preview-line-examples {
+  background-color: lightGreen;
+}
+#letterList {
+  background-color: pink;
+}
