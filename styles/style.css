@@ -23,10 +23,10 @@ video {
 }
 
 #home_images {
-  /*height: 70%;
-  width: 70%;*/
-  margin: 0 auto;
+  margin: auto;
+  position: relative;
   padding: 30px 30px 30px 30px;
+  margin-right: 250px;
 }
 
 #preview-line-1 {
@@ -42,6 +42,7 @@ video {
 }
 #letterList {
   background-color: pink;
+  font-weight: bold;
 }
 
 img.words {
@@ -52,4 +53,9 @@ img.words {
 p.word-text {
   text-size: 20px;
   text-align: right;
+}
+
+audio {
+  position: relative;
+  padding: 50px;
 }
