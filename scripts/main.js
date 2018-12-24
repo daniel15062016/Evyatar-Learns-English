@@ -1,3 +1,4 @@
+//a JS function for making the homepage monkey image change colors
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -21,3 +22,5 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/logo-white.png');
     }
   }
+
+//a JS function for fetching the homepage letters list to all html pages
