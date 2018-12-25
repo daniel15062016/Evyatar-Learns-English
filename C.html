@@ -7,10 +7,10 @@
       <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
   <body style="direction: rtl">
-    <img src="images\c.png" height="30%" width="30%" alt="דברים שמתחילים באות C">
-    <iframe width="640" height="360" src='video\c.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <b><p id="letterList" style="background-color: pink;">
+    <p>לחץ על הסרטון כדי לצפות בהדרכה איך רושמים את האות בשתי הצורות - גדולה וקטנה</p>
+    <video controls source src='video\b.mp4' type="video/mp4"></video>
+    <b><p id="letterList">
+    <a href="index.html"><b>Home לדף הראשי</b></a>
     <a href="A.html">A</a>
     <a href="B.html">B</a>
     <a href="C.html">C</a>
@@ -40,32 +40,33 @@
   </p></b>
 
 
-      <p>Car - מכונית <img id="car_img" src="images\car.png" alt="car" height="10%" width="10%">
+      <p>Car - מכונית <img class="words" id="car_img" src="images\car.png" alt="car">
         <audio id="car_snd" controls>
           <source src="audio/car.ogg" type="audio/ogg"/>
         </audio>
       </p>
-      <p>Cow - פרה <img id="cow_img" src="images\cow.png" alt="cow" height="10%" width="10%">
+      <p>Cow - פרה <img class="words" id="cow_img" src="images\cow.png" alt="cow">
         <audio id="cow_snd" controls>
           <source src="audio/cow.ogg" type="audio/ogg"/>
         </audio>
       </p>
-      <p>Cat - חתול <img id="cat_img" src="images\cat.png" alt="cat" height="10%" width="10%">
+      <p>Cat - חתול <img class="words" id="cat_img" src="images\cat.png" alt="cat">
         <audio id="cat_snd" controls>
           <source src="audio/cat.ogg" type="audio/ogg"/>
         </audio>
       </p>
-      <p>Cake - עוגה <img id="cake_img" src="images\cake.png" alt="cake" height="10%" width="10%">
+      <p>Cake - עוגה <img class="words" id="cake_img" src="images\cake.png" alt="cake">
         <audio id="cake" controls>
           <source src="audio/cake.ogg" type="audio/ogg"/>
         </audio>
       </p>
-      <p>Camel - גמל <img id="camel_img" src="images\camel.png" alt="camel" height="10%" width="10%">
+      <p>Camel - גמל <img class="words" id="camel_img" src="images\camel.png" alt="camel">
         <audio id="camel_snd" controls>
           <source src="audio/camel.ogg" type="audio/ogg"/>
         </audio>
       </p>
 
 	<a href="index.html"><b>Back to the main page - חזרה לדף הראשי</b></a>
+        <script src="scripts/main.js"></script>
   </body>
 </html>
